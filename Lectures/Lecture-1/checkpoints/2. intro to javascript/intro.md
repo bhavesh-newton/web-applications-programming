@@ -1,4 +1,4 @@
-# 3. Introduction to JavaScript (15 minutes)
+# Introduction to JavaScript (15 minutes)
 
 **Objective**: Understand what JavaScript is, how it works with HTML and CSS, and how it helps make web pages interactive.
 
