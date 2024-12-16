@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Change Text Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    p {
+      font-size: 20px;
+      color: #333;
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Change Text with JavaScript</h1>
+  <p id="dynamicText">This text will change when you click the button.</p>
+  <button id="changeTextButton">Click to Change Text</button>
+
+  <script>
+    // JavaScript to change the text when the button is clicked
+    const changeTextButton = document.getElementById('changeTextButton');
+    const dynamicText = document.getElementById('dynamicText');
+
+    changeTextButton.addEventListener('click', function() {
+      dynamicText.textContent = 'You just changed the text using JavaScript!';
+    });
+  </script>
+</body>
+</html>
