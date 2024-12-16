@@ -1,57 +1,51 @@
-# JavaScript Introduction Lecture Plan
+# JavaScript Introduction Lecture Plan (1.5 hours)
 
-## Lecture Objectives
-- Introduce students to JavaScript fundamentals
-- Demonstrate JavaScript's capabilities
-- Build foundational programming skills
+## 1. Introduction (15 minutes)
+- **Instructor's Introduction**: Brief self-introduction and teaching approach.
+- **Students' Introduction**: Each student briefly introduces themselves (name, background, interest in JS).
 
-## Lecture Checkpoints
+## 2. Pre-read Check (5 minutes)
+- Quick check to ensure students have read and understood the pre-read materials.
+  - Ask a few students to share what they learned from the pre-read.
+  - Address any confusion or questions.
 
-### 1. Instructor Introduction
-- Personal introduction
-- Brief background in programming
-- Objectives of the JavaScript course
+## 3. JavaScript Basics (50 minutes)
+- **Goal**: Introduce JavaScript concepts and engage students with real-time demonstrations.
 
-### 2. Student Introductions
-- Name
-- Previous programming experience (if any)
-- Expectations from the course
-- Motivation for learning JavaScript
+### a) Interesting JavaScript Code Examples (15 minutes)
+- Show and explain some fun and interesting JavaScript code snippets.
+  - Example 1: Create a simple interactive alert box.
+  - Example 2: Show how JS can manipulate DOM elements.
+  - **Objective**: Get students excited and curious about the capabilities of JS.
 
-### 3. JavaScript Overview
-- What is JavaScript?
-- Where and how JavaScript is used
-- Interesting capabilities demonstration
-  - Interactive web applications
-  - Dynamic content manipulation
-  - Client-side and server-side programming
+### b) Printing in JavaScript (10 minutes)
+- **Objective**: Teach students how to output data using JavaScript.
+  - Introduction to `console.log()`.
+  - Example: Print simple messages to the console.
+  - **Goal**: Ensure students understand how to print outputs for debugging and learning.
 
-### 4. First JavaScript Interactions
-- How to print/output in JavaScript
-  - Using `console.log()`
-  - Alerts
-  - Document manipulation
+### c) Creating Variables in JavaScript (15 minutes)
+- **Objective**: Introduce variable declaration and data types.
+  - Introduction to `var`, `let`, and `const`.
+  - Example: Declaring variables and printing them to the console.
+  - **Goal**: Teach students to create and use variables effectively in JavaScript.
 
-### 5. Variables in JavaScript
-- What are variables?
-- Variable declaration (`var`, `let`, `const`)
-- Variable naming conventions
-- Basic variable usage
+### d) Summarizing Key Points (5 minutes)
+- Recap of what was covered:
+  - Printing in JS.
+  - Creating variables.
+  - Discuss common uses of variables in programs.
+  - **Objective**: Solidify understanding of the key concepts.
 
-### 6. Lecture Summary
-- Recap key points
-- Reinforce main concepts learned
-- Address any questions
+## 4. Practice Session: MCQs and Coding Challenges (20 minutes)
 
-### 7. Assessment
-- Multiple Choice Questions (MCQs)
-- Coding challenges on Newton Platform
-  - Difficulty: Beginner level
-  - Focus on learned concepts
-  - Provide immediate feedback
+### a) Multiple Choice Questions (MCQs) (5 minutes)
+- Assign MCQs to reinforce concepts discussed in the lecture.
+  - Quick, interactive discussion of MCQs.
 
-## Learning Outcomes
-- Understanding JavaScript basics
-- Writing first JavaScript code
-- Creating and manipulating variables
-- Preparing for more advanced topics
+### b) Coding Exercise on Newton Platform (15 minutes)
+- Coding task to apply the learned concepts.
+  - Students work on a simple JS coding challenge.
+  - Encourage collaboration and problem-solving.
+  - **Goal**: Ensure hands-on practice of new concepts.
+
