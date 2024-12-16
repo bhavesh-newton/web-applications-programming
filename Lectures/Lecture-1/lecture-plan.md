@@ -14,27 +14,27 @@
 
 ### a) Interesting JavaScript Code Examples (15 minutes)
 - Show and explain some fun and interesting JavaScript code snippets.
-  - Example 1: Create a simple interactive alert box.
-  - Example 2: Show how JS can manipulate DOM elements.
-  - **Objective**: Get students excited and curious about the capabilities of JS.
+  - Example 1: A simple interactive alert box (using `alert()`).
+  - Example 2: A basic number guessing game or a countdown timer.
+  - **Objective**: Get students excited and curious about what JavaScript can do in different contexts.
 
 ### b) Printing in JavaScript (10 minutes)
 - **Objective**: Teach students how to output data using JavaScript.
   - Introduction to `console.log()`.
-  - Example: Print simple messages to the console.
+  - Example: Print simple messages or numbers to the console.
   - **Goal**: Ensure students understand how to print outputs for debugging and learning.
 
 ### c) Creating Variables in JavaScript (15 minutes)
 - **Objective**: Introduce variable declaration and data types.
   - Introduction to `var`, `let`, and `const`.
-  - Example: Declaring variables and printing them to the console.
+  - Example: Declaring variables for different data types (strings, numbers, booleans).
   - **Goal**: Teach students to create and use variables effectively in JavaScript.
 
 ### d) Summarizing Key Points (5 minutes)
 - Recap of what was covered:
   - Printing in JS.
   - Creating variables.
-  - Discuss common uses of variables in programs.
+  - Basic interactions using JS.
   - **Objective**: Solidify understanding of the key concepts.
 
 ## 4. Practice Session: MCQs and Coding Challenges (20 minutes)
