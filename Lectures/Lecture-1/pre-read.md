@@ -61,10 +61,12 @@ This will print the message Hello, Python! to the console when you run the code.
 
 Comparison:
 JavaScript uses console.log() while Python uses print() to display output.
-Both are simple functions, but they are used in different contexts (browser or server-side for JavaScript, terminal for Python).
-3. Variable Declaration in JavaScript vs Python
+Both are simple functions, but they are used in different contexts:
+JavaScript is used for browser or server-side (via Node.js).
+Python is used in the terminal or command-line interface.
+2. Variable Declaration: JavaScript vs Python
 JavaScript:
-In JavaScript, we declare variables using let, const, or var (with let and const being the preferred modern options).
+In JavaScript, variables are declared using let, const, or var (with let and const being the preferred modern options).
 
 let is used for variables whose values can change.
 const is used for variables whose values should never change.
@@ -88,17 +90,14 @@ age can be reassigned a new value, and Python doesn't enforce immutability for v
 Comparison:
 JavaScript has more flexibility with variable declaration, using let and const to distinguish between mutable and immutable variables.
 Python uses direct variable assignment, with no distinction for immutability.
-4. Conclusion
+3. Conclusion
 Introduction Comparison:
-
 JavaScript is a full-stack language used both on the client-side and server-side (with Node.js), making it extremely versatile for building dynamic web applications.
 Python is primarily used for back-end development, data science, and other fields like automation and AI. It is highly popular for its simple syntax and ease of use.
 Printing Output:
-
 In JavaScript, use console.log() to print output to the console.
 In Python, use print() to display output.
 Variable Declaration:
-
 In JavaScript, variables are declared using let, const, or var, with distinctions between mutable and immutable variables.
 In Python, variables are directly assigned, and there is no distinction for immutability at the declaration level.
 This comparison should give you a clearer understanding of JavaScript and its differences from Python. Both languages are powerful, but they are used for different purposes. As we progress in this course, you’ll see how JavaScript plays a key role in building interactive web applications.
