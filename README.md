@@ -25,10 +25,11 @@ In this lecture, we explored JavaScript’s data types and operators, essential 
    - Using `typeof` to determine variable types.
 
 2. **Operators**:
-   - Arithmetic: Performing calculations with `+`, `-`, `*`, `/`, `%`, and `**`.
-   - Assignment: Assigning and updating values with `=`, `+=`, `-=`, etc.
-   - Comparison: Comparing values with `==`, `===`, `!=`, `!==`, `<`, `>`, `<=`, and `>=`.
-   - Logical: Combining conditions with `&&`, `||`, and `!`.
+   - **Arithmetic**: Performing calculations with `+`, `-`, `*`, `/`, `%`, and `**`.
+   - **Assignment**: Assigning and updating values with `=`, `+=`, `-=`, etc.
+   - **Comparison**: Comparing values with `==`, `===`, `!=`, `!==`, `<`, `>`, `<=`, and `>=`.
+   - **Logical**: Combining conditions with `&&`, `||`, and `!`.
+   - **Bitwise**: Manipulating binary representations with `&`, `|`, `^`, `~`, `<<`, `>>`, and `>>>`.
 
 ## Learning Outcomes:
 By the end of this lecture, you’ll be able to:
