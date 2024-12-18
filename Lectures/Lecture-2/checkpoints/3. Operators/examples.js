@@ -42,7 +42,18 @@ console.log(isLoggedIn && hasAccess); // Output: false (Logical AND)
 console.log(isLoggedIn || hasAccess); // Output: true (Logical OR)
 console.log(!isLoggedIn); // Output: false (Logical NOT)
 
-// Example 5: Practice - Combining Operators
+// Example 5: Bitwise Operators
+let num1 = 5; // Binary: 0101
+let num2 = 3; // Binary: 0011
+console.log(num1 & num2); // Output: 1 (Bitwise AND)
+console.log(num1 | num2); // Output: 7 (Bitwise OR)
+console.log(num1 ^ num2); // Output: 6 (Bitwise XOR)
+console.log(~num1);       // Output: -6 (Bitwise NOT)
+console.log(num1 << 1);   // Output: 10 (Left Shift)
+console.log(num1 >> 1);   // Output: 2 (Right Shift)
+console.log(num1 >>> 1);  // Output: 2 (Unsigned Right Shift)
+
+// Example 6: Practice - Combining Logical and Comparison Operators
 let age = 20;
 let hasPermission = age >= 18 && !hasAccess; // Checks if age is >= 18 and does not have access
 console.log(hasPermission); // Output: true

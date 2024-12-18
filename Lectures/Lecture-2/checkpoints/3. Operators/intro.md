@@ -1,13 +1,11 @@
 # Operators in JavaScript: An Overview
 
 ## 🎯 Objective:
-
-Understand JavaScript's operators for performing calculations, comparisons, assignments, and logical operations.
+Understand JavaScript's operators for performing calculations, comparisons, assignments, logical operations, and bitwise operations.
 
 ---
 
 ## **1. Arithmetic Operators**
-
 These are used to perform mathematical operations:
 
 | Operator | Description         | Example  | Result     |
@@ -22,7 +20,6 @@ These are used to perform mathematical operations:
 ---
 
 ## **2. Assignment Operators**
-
 These are used to assign values to variables. Some operators also perform calculations while assigning.
 
 | Operator | Description               | Example   | Result       |
@@ -38,7 +35,6 @@ These are used to assign values to variables. Some operators also perform calcul
 ---
 
 ## **3. Comparison Operators**
-
 These compare two values and return a Boolean (`true` or `false`).
 
 | Operator | Description              | Example     | Result  |
@@ -55,32 +51,52 @@ These compare two values and return a Boolean (`true` or `false`).
 ---
 
 ## **4. Logical Operators**
-
 Logical operators help manipulate Boolean values and expressions:
 
-- **Logical AND (****`&&`****)**:
-
+- **Logical AND (`&&`)**:
   - Combines two conditions; returns `true` only if both are `true`.
   - Example: `true && false` → `false`
 
-- **Logical OR (****`||`****)**:
-
+- **Logical OR (`||`)**:
   - Combines two conditions; returns `true` if at least one is `true`.
   - Example: `true || false` → `true`
 
-- **Logical NOT (****`!`****)**:
-
+- **Logical NOT (`!`)**:
   - Negates a Boolean value; converts `true` to `false` and vice versa.
   - Example: `!true` → `false`
 
 ---
 
-## 🌟 Key Takeaways:
+## **5. Bitwise Operators**
+Bitwise operators work directly with binary representations of numbers:
 
+- **AND (`&`)**: Compares each bit; results in `1` only if both bits are `1`.
+  - Example: `5 & 3` → `1`
+
+- **OR (`|`)**: Compares each bit; results in `1` if at least one bit is `1`.
+  - Example: `5 | 3` → `7`
+
+- **XOR (`^`)**: Compares each bit; results in `1` where only one bit is `1`.
+  - Example: `5 ^ 3` → `6`
+
+- **NOT (`~`)**: Inverts all bits (two’s complement).
+  - Example: `~5` → `-6`
+
+- **Left Shift (`<<`)**: Shifts bits to the left, filling with `0`.
+  - Example: `5 << 1` → `10`
+
+- **Right Shift (`>>`)**: Shifts bits to the right, preserving the sign.
+  - Example: `5 >> 1` → `2`
+
+- **Unsigned Right Shift (`>>>`)**: Shifts bits to the right, filling with `0` regardless of the sign.
+  - Example: `-5 >>> 1` → `2147483645`
+
+---
+
+## 🌟 Key Takeaways:
 - Arithmetic operators perform calculations.
 - Assignment operators simplify value updates.
 - Comparison operators evaluate relationships between values.
 - Logical operators combine or negate Boolean expressions.
-
-Practice these operators in small examples to understand their behavior better!
+- Bitwise operators manipulate binary representations for low-level computations.
 

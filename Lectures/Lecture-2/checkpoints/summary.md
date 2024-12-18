@@ -58,6 +58,16 @@ Congratulations! You've explored essential concepts in JavaScript, covering data
   console.log(true || false); // Output: true
   ```
 
+### Bitwise Operators
+- Perform operations at the binary level:
+  - **AND (`&`)**: `5 & 3` → `1`
+  - **OR (`|`)**: `5 | 3` → `7`
+  - **XOR (`^`)**: `5 ^ 3` → `6`
+  - **NOT (`~`)**: `~5` → `-6`
+  - **Left Shift (`<<`)**: `5 << 1` → `10`
+  - **Right Shift (`>>`)**: `5 >> 1` → `2`
+  - **Unsigned Right Shift (`>>>`)**: `-5 >>> 1` → `2147483645`
+
 ---
 
 ## 3. **Dynamic Typing**
@@ -83,4 +93,3 @@ console.log(value);  // Output: Hello!
 3. **Explore**: Learn about conditional statements (`if`, `else`), loops, and functions to expand your JavaScript knowledge.
 
 Remember, **consistent practice** is the key to mastering JavaScript. Keep coding and building your skills. 🚀
-
