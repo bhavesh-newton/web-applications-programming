@@ -13,7 +13,7 @@ By the end of this pre-read, you will:
 ### 🌍 Where Do These Languages Live?
 
 #### Python: The Swiss Army Knife of Programming
-- **Strengths**: 
+- **Strengths**:
   - Data science and analysis
   - Machine learning and AI
   - Back-end web development
@@ -23,6 +23,7 @@ By the end of this pre-read, you will:
   - Clean, straightforward syntax
   - Uses indentation to define code blocks
   - Designed to be beginner-friendly
+  - **More Info**: [Python.org](https://www.python.org/)
 
 #### JavaScript: The Web's Native Language
 - **Strengths**:
@@ -35,6 +36,7 @@ By the end of this pre-read, you will:
   - More verbose syntax
   - Uses curly braces `{}` to define blocks
   - Supports multiple programming paradigms
+  - **More Info**: [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ### 🔄 Key Differences at a Glance
 
@@ -75,6 +77,8 @@ console.log("Multiple", "arguments", "work", "too");
 - `console.log()` is more versatile than Python's `print()`
   - Can log objects, arrays, and more complex data types directly
 
+- **More Info**: [MDN - Console](https://developer.mozilla.org/en-US/docs/Web/API/console)
+
 ---
 
 ## 3. Variables: More Than Just Names
@@ -106,6 +110,8 @@ var isStudent = true; // Old-style, avoid in modern JS
 - Python treats all variables similarly
 - JavaScript enforces immutability through `const`
 
+- **More Info**: [MDN - Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
+
 ### 💡 Practical Example
 ```javascript
 // JavaScript example showing variable reassignment
@@ -120,7 +126,7 @@ const PI = 3.14159;  // Cannot be changed
 
 ## 4. Your Learning Path: From Python to JavaScript
 
-### 🗺️ Navigating the Transition
+### 🌎 Navigating the Transition
 
 1. **Embrace the Semicolons**: Get used to ending statements with `;`
 2. **Learn Block Syntax**: Use `{}` instead of `:` and indentation
@@ -133,13 +139,7 @@ const PI = 3.14159;  // Cannot be changed
 - Explore online JavaScript coding platforms
 - Don't be afraid to make mistakes!
 
----
-
-## 5. Recommended Resources
-
-### 📚 Further Learning
-- [MDN Web Docs (JavaScript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [JavaScript.info - Modern JavaScript Tutorial](https://javascript.info/)
+- **More Info**: [JavaScript.info - Getting Started](https://javascript.info/getting-started)
 
 ---
 
@@ -149,3 +149,4 @@ const PI = 3.14159;  // Cannot be changed
 3. How might template literals in JavaScript simplify your string formatting?
 
 **Get ready to dive into JavaScript! Your Python skills are a solid foundation.**
+
