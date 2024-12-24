@@ -198,10 +198,52 @@ for (let i = 0; i < 5; i++) {
 
 ## 💡 Pre-lecture Exercises
 
+### Basic Exercises
+
 1. Write a program that uses a ternary operator to check if a number is even or odd
 2. Create a grading system using if-else statements (A: ≥90, B: ≥80, C: ≥70, D: ≥60, F: <60)
 3. Write a loop that prints the first 10 even numbers
 4. Use a switch statement to convert number grades to letter grades
+
+### Intermediate Exercises
+
+1. **Temperature Converter**:
+   - Use ternary operator to convert between Celsius and Fahrenheit
+   - Handle invalid inputs using conditions
+   - Format output to 2 decimal places
+
+2. **Password Validator**:
+   - Check password strength using if-else statements
+   - Requirements: minimum 8 characters, at least one number, one uppercase
+   - Return appropriate feedback messages
+
+3. **FizzBuzz**:
+   - Loop from 1 to 100
+   - Print "Fizz" for multiples of 3
+   - Print "Buzz" for multiples of 5
+   - Print "FizzBuzz" for multiples of both
+   - Use continue for optimization
+
+4. **Calculator**:
+   - Use switch statement for operations (+, -, *, /)
+   - Handle division by zero
+   - Support multiple operations
+
+### Advanced Exercises
+
+1. **Login System**:
+   - Allow 3 login attempts using a loop
+   - Lock account after failed attempts
+   - Use ternary for status messages
+   - Track attempt timestamps
+
+2. **Shopping Cart**:
+    - Calculate total with tax and discounts
+    - Apply different discount rates based on total
+    - Use continue to skip out-of-stock items
+    - Break if total exceeds budget
+
+Try solving these exercises before the lecture. They cover all the concepts we'll discuss and will help you understand the practical applications of control flow in JavaScript.
 
 ---
 
