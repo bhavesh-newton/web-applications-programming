@@ -6,6 +6,10 @@
 
 This repository contains lecture materials, practice exercises, and resources for the Web Applications Programming course. The course focuses on modern web development using JavaScript and related technologies.
 
+## Lectures
+
+All lectures are available in the [Lectures](Lectures) folder.
+
 ## Technical Requirements
 
 ### Development Environment
