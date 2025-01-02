@@ -67,7 +67,7 @@ Our course follows a comprehensive learning approach:
 
 ## Course Overview
 
-The course is designed to take you from the basics of JavaScript to advanced web development concepts. Each lecture builds upon previous knowledge while introducing new concepts and practical applications.
+The course is designed to take you from the basics of JavaScript to advanced web development concepts, including React fundamentals. Each lecture builds upon previous knowledge while introducing new concepts and practical applications.
 
 ### Topics Covered
 
@@ -87,6 +87,18 @@ The course is designed to take you from the basics of JavaScript to advanced web
    - Event handling
    - API integration
    - Modern development practices
+
+4. React Basics
+   - Introduction to React
+   - Components and Props
+   - State and Lifecycle
+   - Event Handling in React
+   - Conditional Rendering
+   - Lists and Keys
+   - Forms and Controlled Components
+   - Component Composition
+   - React Hooks Basics
+   - Context and Basic State Management
 
 ## Using This Repository
 
