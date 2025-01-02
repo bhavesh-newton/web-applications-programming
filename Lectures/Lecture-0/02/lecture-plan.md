@@ -1,0 +1,61 @@
+# VS Code Masterclass
+
+## Topics
+
+- Introduction to VS Code
+- Installation
+- Basic Configuration
+    - Settings
+    - Keybindings
+    - Themes
+- Extensions
+    - Popular Extensions
+        - `ESLint`
+        - `Prettier`
+        - `Bracket Pair Colorizer`
+        - `Live Server`
+        - `Code Runner`
+        - `Auto Close Tag`
+        - `Auto Rename Tag`
+        - `Live Share`
+        - `GitLens`
+        - `Peacock`
+    - Installing Extensions
+    - Managing Extensions
+- Keyboard Shortcuts
+    - Basic Shortcuts
+        - `Ctrl + S` - Save
+        - `Ctrl + N` - New File
+        - `Ctrl + O` - Open File
+        - `Ctrl + Shift + P` - Command Palette
+        - `Ctrl + Shift + T` - Reopen Closed Tab
+        - `Ctrl + Shift + V` - Preview Markdown
+        - `Ctrl + Shift + L` - Select All Occurrences
+        - `Ctrl + D` - Select Next Occurrence
+        - `Ctrl + F` - Find
+        - `Ctrl + backtick` - Toggle Terminal
+        - `Ctrl + K Z` - Zen Mode
+        - `Opt + Click` - Multi-Cursor
+    - Custom Shortcuts
+- Command Palette
+- Bottom Panel
+    - Problems
+    - Output
+    - Terminal
+- Sidebar
+    - Explorer
+    - Search
+    - Source Control + Git
+    - Debug
+    - Extensions
+- Bottom Bar
+    - Language Mode
+    - Use for various statuses
+- Settings Sync
+- Emmet
+- Snippets
+    - Creating Snippets
+    - Using Snippets
+- Customization
+- Tips and Tricks
+- Resources
