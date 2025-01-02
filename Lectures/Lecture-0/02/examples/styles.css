@@ -1,0 +1,45 @@
+/* Messy CSS file with formatting issues */
+.container{
+    width:100%;
+  padding:20px;
+        margin:0 auto;
+    background-color     :#f0f0f0;
+}
+
+.card
+{
+  border:1px solid #ccc;
+    box-shadow:0 2px 4px rgba(0,0,0,0.1);
+  padding:15px;
+      margin-bottom:10px;
+}
+
+.button{
+  display:inline-block;
+    padding:10px 20px;
+  background-color:#007bff;
+      color:white;
+    text-decoration:none;
+  border-radius:5px
+}
+
+/* Inconsistent media queries */
+@media screen and (max-width:768px){
+    .container{
+      width:90%
+    }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+        width: 95%;
+    }
+}
+
+/* Vendor prefixes mess */
+.gradient-bg {
+  background: -webkit-linear-gradient(left, #ff0000, #00ff00);
+    background: -moz-linear-gradient(left, #ff0000, #00ff00);
+  background: -o-linear-gradient(left, #ff0000, #00ff00);
+      background: linear-gradient(to right, #ff0000, #00ff00);
+} 
