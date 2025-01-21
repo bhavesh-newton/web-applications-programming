@@ -15,8 +15,8 @@
 
 - **Objective**: Ensure understanding of pre-read material
 - **Activity**:
-  - Quick quiz on object basics
-  - Review object manipulation concepts
+    - Quick quiz on object basics
+    - Review object manipulation concepts
 
 ### 🌟 Today's Roadmap
 
@@ -50,8 +50,8 @@
   ```
 
 - **Interactive Exercise**:
-  - Create object property validators
-  - Build dynamic form field generators
+    - Create object property validators
+    - Build dynamic form field generators
 
 ### 🎯 Object.values() Workshop (13 minutes)
 
@@ -93,8 +93,8 @@
   ```
 
 - **Pair Programming**:
-  - Create data transformation utilities
-  - Build object filtering systems
+    - Create data transformation utilities
+    - Build object filtering systems
 
 ### 🔀 Object.fromEntries() Workshop (15 minutes)
 
@@ -141,9 +141,9 @@
 
 - **Objective**: Learn efficient object manipulation
 - **Best Practices**:
-  - When to use which method
-  - Memory considerations
-  - Performance benchmarking
+    - When to use which method
+    - Memory considerations
+    - Performance benchmarking
 
 ---
 
