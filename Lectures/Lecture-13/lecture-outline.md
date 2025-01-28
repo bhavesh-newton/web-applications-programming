@@ -101,83 +101,143 @@
 Example quiz questions:
 
 1. What is the purpose of the async keyword?
-   a) To make functions run faster
-   b) To make a function return a Promise
-   c) To prevent errors in code
-   d) To replace regular functions
-   Answer: b
-   Explanation: The async keyword automatically wraps a function's return value in a Promise. It doesn't affect execution speed (a), isn't specifically for error handling (c), and supplements rather than replaces regular functions (d).
+
+    a) To make functions run faster
+
+    b) To make a function return a Promise
+
+    c) To prevent errors in code
+
+    d) To replace regular functions
+
+    Answer: b
+
+    Explanation: The async keyword automatically wraps a function's return value in a Promise. It doesn't affect execution speed (a), isn't specifically for error handling (c), and supplements rather than replaces regular functions (d).
 
 2. How does await affect Promise resolution?
-   a) It makes Promises resolve immediately
-   b) It pauses execution until the Promise resolves
-   c) It cancels the Promise
-   d) It has no effect on Promise resolution
-   Answer: b
-   Explanation: await pauses the execution of an async function until the Promise resolves. It doesn't speed up resolution (a), never cancels Promises (c), and definitely affects Promise handling (d).
+
+    a) It makes Promises resolve immediately
+
+    b) It pauses execution until the Promise resolves
+
+    c) It cancels the Promise
+
+    d) It has no effect on Promise resolution
+
+    Answer: b
+
+    Explanation: await pauses the execution of an async function until the Promise resolves. It doesn't speed up resolution (a), never cancels Promises (c), and definitely affects Promise handling (d).
 
 3. When should you use try/catch with async functions?
-   a) Always, for every async function
-   b) Only when errors are expected
-   c) When working with operations that could fail
-   d) Never with async functions
-   Answer: c
-   Explanation: try/catch should be used when operations might fail (like network requests or file operations). Using it always (a) is unnecessary overhead, waiting for "expected" errors (b) is too reactive, and never using it (d) leaves code vulnerable.
+
+    a) Always, for every async function
+
+    b) Only when errors are expected
+
+    c) When working with operations that could fail
+
+    d) Never with async functions
+
+    Answer: c
+
+    Explanation: try/catch should be used when operations might fail (like network requests or file operations). Using it always (a) is unnecessary overhead, waiting for "expected" errors (b) is too reactive, and never using it (d) leaves code vulnerable.
 
 4. What's the difference between Promise.all and Promise.race?
-   a) Promise.all waits for all Promises to resolve, Promise.race waits for the first one
-   b) Promise.all is faster than Promise.race
-   c) Promise.race can only handle two Promises
-   d) There is no difference
-   Answer: a
-   Explanation: Promise.all waits for all Promises to complete, while Promise.race resolves when the first Promise completes. Speed (b) depends on the operations, Promise.race can handle any number of Promises (c), and they serve different purposes (d).
+
+    a) Promise.all waits for all Promises to resolve, Promise.race waits for the first one
+
+    b) Promise.all is faster than Promise.race
+
+    c) Promise.race can only handle two Promises
+    
+    d) There is no difference
+
+    Answer: a
+
+    Explanation: Promise.all waits for all Promises to complete, while Promise.race resolves when the first Promise completes. Speed (b) depends on the operations, Promise.race can handle any number of Promises (c), and they serve different purposes (d).
 
 5. What happens when an error occurs in an async function?
-   a) The function continues executing
-   b) The Promise is rejected with the error
-   c) The error is ignored
-   d) The function returns null
-   Answer: b
-   Explanation: When an error occurs, the Promise is rejected and execution stops at that point. The function doesn't continue (a), errors aren't ignored (c), and null isn't automatically returned (d).
+
+    a) The function continues executing
+
+    b) The Promise is rejected with the error
+
+    c) The error is ignored
+
+    d) The function returns null
+
+    Answer: b
+
+    Explanation: When an error occurs, the Promise is rejected and execution stops at that point. The function doesn't continue (a), errors aren't ignored (c), and null isn't automatically returned (d).
 
 6. How do you convert a Promise chain to async/await?
-   a) Replace .then() with await and wrap in async function
-   b) Simply remove all .then() calls
-   c) Add async keyword to all functions
-   d) Convert Promises to callbacks
-   Answer: a
-   Explanation: Converting requires both replacing .then() with await AND wrapping in an async function. Just removing .then() (b) causes errors, adding async everywhere (c) is unnecessary, and converting to callbacks (d) is backwards.
+
+    a) Replace .then() with await and wrap in async function
+
+    b) Simply remove all .then() calls
+
+    c) Add async keyword to all functions
+
+    d) Convert Promises to callbacks
+
+    Answer: a
+
+    Explanation: Converting requires both replacing .then() with await AND wrapping in an async function. Just removing .then() (b) causes errors, adding async everywhere (c) is unnecessary, and converting to callbacks (d) is backwards.
 
 7. What are the benefits of async/await over Promises?
-   a) Better performance
-   b) More readable, synchronous-looking code
-   c) No error handling needed
-   d) Smaller bundle size
-   Answer: b
-   Explanation: async/await provides cleaner, more readable code that looks synchronous. It doesn't improve performance (a), still requires error handling (c), and doesn't affect bundle size (d).
+
+    a) Better performance
+
+    b) More readable, synchronous-looking code
+
+    c) No error handling needed
+
+    d) Smaller bundle size
+
+    Answer: b
+
+    Explanation: async/await provides cleaner, more readable code that looks synchronous. It doesn't improve performance (a), still requires error handling (c), and doesn't affect bundle size (d).
 
 8. How does the Event Loop relate to async operations?
-   a) It executes async code immediately
-   b) It manages the execution of async callbacks
-   c) It blocks during async operations
-   d) It has no relation to async code
-   Answer: b
-   Explanation: The Event Loop manages when async callbacks are executed after their operations complete. It doesn't execute async code immediately (a), doesn't block (c), and is fundamental to async JavaScript (d).
+
+    a) It executes async code immediately
+
+    b) It manages the execution of async callbacks
+
+    c) It blocks during async operations
+
+    d) It has no relation to async code
+
+    Answer: b
+
+    Explanation: The Event Loop manages when async callbacks are executed after their operations complete. It doesn't execute async code immediately (a), doesn't block (c), and is fundamental to async JavaScript (d).
 
 9. When should you use sequential vs parallel async operations?
-   a) Always use sequential for consistency
-   b) Always use parallel for performance
-   c) Sequential when operations depend on each other, parallel when independent
-   d) It doesn't matter which you use
-   Answer: c
-   Explanation: Use sequential when operations depend on previous results, parallel when they're independent. Always using sequential (a) hurts performance, always using parallel (b) can cause errors with dependent operations, and the choice definitely matters (d).
+
+    a) Always use sequential for consistency
+
+    b) Always use parallel for performance
+
+    c) Sequential when operations depend on each other, parallel when i
+    ependent
+    d) It doesn't matter which you use
+
+    Answer: c
+
+    Explanation: Use sequential when operations depend on previous results, parallel when they're independent. Always using sequential (a) hurts performance, always using parallel (b) can cause errors with dependent operations, and the choice definitely matters (d).
 
 10. How do you handle multiple async operations in parallel?
+
     a) Use multiple try/catch blocks
+
     b) Use Promise.all() or Promise.allSettled()
+ 
     c) Run them one after another
+
     d) Use setTimeout
+
     Answer: b
+
     Explanation: Promise.all() and Promise.allSettled() are designed for parallel execution. Multiple try/catch blocks (a) don't ensure parallelism, running operations sequentially (c) isn't parallel, and setTimeout (d) doesn't handle Promise coordination.
 
 ## Resources
