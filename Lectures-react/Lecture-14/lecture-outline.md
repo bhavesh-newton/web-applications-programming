@@ -20,7 +20,7 @@
   1. Introduction to Tools: Briefly introduce Stackblitz or Newton Box as online environments for React.
   2. Create a React App:
     - Demonstrate how to set up a React project using newton box.
-    - Walk through the basic file structure (src, public, node_modules).
+    - Walk through the basic file structure (src, public, node_modules). Let's not talk about node_modules and other folders. We will only tell them that the code changes would be done in src folder.
   3. First Run:
     - Show the students the default “React App” screen after running the project.
 - Practical Activity:
