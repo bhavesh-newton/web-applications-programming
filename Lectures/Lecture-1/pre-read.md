@@ -1,7 +1,9 @@
 # JavaScript for Python Programmers: Your First Steps
 
 ## 🎯 Learning Objectives
+
 By the end of this pre-read, you will:
+
 - Understand the fundamental differences between JavaScript and Python
 - Recognize how your Python knowledge translates to JavaScript
 - Learn key syntax and conceptual shifts when moving to JavaScript
@@ -13,30 +15,32 @@ By the end of this pre-read, you will:
 ### 🌍 Where Do These Languages Live?
 
 #### Python: The Swiss Army Knife of Programming
+
 - **Strengths**:
-  - Data science and analysis
-  - Machine learning and AI
-  - Back-end web development
-  - Scientific computing
-  - Scripting and automation
+    - Data science and analysis
+    - Machine learning and AI
+    - Back-end web development
+    - Scientific computing
+    - Scripting and automation
 - **Syntax Philosophy**: "Readability counts"
-  - Clean, straightforward syntax
-  - Uses indentation to define code blocks
-  - Designed to be beginner-friendly
-  - **More Info**: [Python.org](https://www.python.org/)
+    - Clean, straightforward syntax
+    - Uses indentation to define code blocks
+    - Designed to be beginner-friendly
+    - **More Info**: [Python.org](https://www.python.org/)
 
 #### JavaScript: The Web's Native Language
+
 - **Strengths**:
-  - Front-end web interactivity
-  - Full-stack development (with Node.js)
-  - Browser-based applications
-  - Real-time web applications
-  - Mobile and desktop app development
+    - Front-end web interactivity
+    - Full-stack development (with Node.js)
+    - Browser-based applications
+    - Real-time web applications
+    - Mobile and desktop app development
 - **Syntax Philosophy**: "Flexibility with complexity"
-  - More verbose syntax
-  - Uses curly braces `{}` to define blocks
-  - Supports multiple programming paradigms
-  - **More Info**: [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+    - More verbose syntax
+    - Uses curly braces `{}` to define blocks
+    - Supports multiple programming paradigms
+    - **More Info**: [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ### 🔄 Key Differences at a Glance
 
@@ -56,6 +60,7 @@ By the end of this pre-read, you will:
 In Python, you use `print()`. In JavaScript, you'll use `console.log()`.
 
 #### Python Reminder
+
 ```python
 # Python printing
 name = "Alice"
@@ -64,6 +69,7 @@ print("Multiple", "arguments", "work", "too")
 ```
 
 #### JavaScript Equivalent
+
 ```javascript
 // JavaScript console logging
 let name = "Alice";
@@ -72,10 +78,11 @@ console.log("Multiple", "arguments", "work", "too");
 ```
 
 #### Pro Tips
+
 - Both languages support template literals/f-strings
 - JavaScript uses backticks `` ` `` for multi-line strings and interpolation
 - `console.log()` is more versatile than Python's `print()`
-  - Can log objects, arrays, and more complex data types directly
+    - Can log objects, arrays, and more complex data types directly
 
 - **More Info**: [MDN - Console](https://developer.mozilla.org/en-US/docs/Web/API/console)
 
@@ -86,6 +93,7 @@ console.log("Multiple", "arguments", "work", "too");
 ### 🔒 Declaring Variables: The JavaScript Way
 
 #### Python: Simple and Direct
+
 ```python
 # Python variable assignment
 age = 25
@@ -94,6 +102,7 @@ is_student = True
 ```
 
 #### JavaScript: Explicit Declaration
+
 ```javascript
 // JavaScript variable declaration
 let age = 25;         // Can be reassigned
@@ -102,6 +111,7 @@ var isStudent = true; // Old-style, avoid in modern JS
 ```
 
 ### 🚨 Important Differences
+
 - JavaScript has three ways to declare variables:
   1. `let`: Use for variables that will change
   2. `const`: Use for variables that won't change
@@ -113,6 +123,7 @@ var isStudent = true; // Old-style, avoid in modern JS
 - **More Info**: [MDN - Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
 
 ### 💡 Practical Example
+
 ```javascript
 // JavaScript example showing variable reassignment
 let counter = 0;     // Can change
@@ -134,6 +145,7 @@ const PI = 3.14159;  // Cannot be changed
 4. **Practice Console Logging**: `console.log()` is your debugging companion
 
 ### 🚀 Recommended First Steps
+
 - Write small programs translating your Python knowledge
 - Use browser developer tools for practice
 - Explore online JavaScript coding platforms
@@ -144,9 +156,9 @@ const PI = 3.14159;  // Cannot be changed
 ---
 
 ## 🤔 Reflection Questions
+
 1. How does JavaScript's variable declaration differ from Python's?
 2. What are the use cases where you would choose JavaScript over Python?
 3. How might template literals in JavaScript simplify your string formatting?
 
 **Get ready to dive into JavaScript! Your Python skills are a solid foundation.**
-

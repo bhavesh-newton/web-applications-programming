@@ -1,0 +1,38 @@
+/* Styles for Git demo project */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.feature-list {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.feature-list h2 {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.feature-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.feature-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.feature-list li:last-child {
+    border-bottom: none;
+} 
