@@ -77,8 +77,8 @@
 
 - Objective: Show how to display React components in the browser, including nesting components.
 - Key Steps:
-    - Rendering Basics:
-        - Using ReactDOM.render() to render components to the DOM.
+    <!-- - Rendering Basics:
+        - Using ReactDOM.render() to render components to the DOM. -->
     - Nesting Components:
         - Example:
 
