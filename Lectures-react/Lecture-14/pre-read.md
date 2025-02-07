@@ -83,18 +83,18 @@ JSX is a syntax extension for JavaScript that looks similar to HTML but comes wi
 
 2. **JavaScript in Markup**:
 
-```jsx
-const name = 'John';
-const element = <h1>Hello, {name}</h1>;
-```
+    ```jsx
+    const name = 'John';
+    const element = <h1>Hello, {name}</h1>;
+    ```
 
 3. **Style Differences**:
 
-```jsx
-// JSX style
-const style = { backgroundColor: 'blue' };
-const element = <div style={style}>Hello</div>;
-```
+    ```jsx
+    // JSX style
+    const style = { backgroundColor: 'blue' };
+    const element = <div style={style}>Hello</div>;
+    ```
 
 ---
 
