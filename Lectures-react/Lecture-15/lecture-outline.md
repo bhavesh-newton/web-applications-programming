@@ -50,22 +50,40 @@
   1. If statements (outside JSX):
 
      ```jsx
-     if (condition) {
-       return <ComponentA />;
+     function UserStatus() {
+       const isLoggedIn = false;
+       
+       if (isLoggedIn) {
+         return <div>Welcome back!</div>;
+       }
+       return <div>Please log in</div>;
      }
-     return <ComponentB />;
      ```
 
   2. Ternary operator:
 
      ```jsx
-     return condition ? <ComponentA /> : <ComponentB />;
+     function Greeting() {
+       const isLoggedIn = false;
+       return (
+         <div>
+           {isLoggedIn ? 'Welcome back!' : 'Please log in'}
+         </div>
+       );
+     }
      ```
 
   3. Logical && operator:
 
      ```jsx
-     return condition && <Component />;
+     function Notification() {
+       const message = 'New message';
+       return (
+         <div>
+           {message && <div>{message}</div>}
+         </div>
+       );
+     }
      ```
 
 - Live Demo:
@@ -88,7 +106,13 @@
 - Code Examples:
 
   ```jsx
-  function ListComponent({ items }) {
+  function ListComponent() {
+    const items = [
+      { id: 1, name: 'Item 1' },
+      { id: 2, name: 'Item 2' },
+      { id: 3, name: 'Item 3' },
+    ];
+    
     return (
       <ul>
         {items.map(item => (
@@ -149,7 +173,7 @@
 
 ## Resources
 
-- Official React documentation
-- JSX specification
-- React patterns documentation
-- Performance optimization guides
+- [React JSX Documentation](https://react.dev/learn/writing-markup-with-jsx)
+- [Conditional Rendering](https://react.dev/learn/conditional-rendering)
+- [Lists and Keys](https://react.dev/learn/rendering-lists)
+- [React Performance](https://react.dev/learn/render-and-commit)
