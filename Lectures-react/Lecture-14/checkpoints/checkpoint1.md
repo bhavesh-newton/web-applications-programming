@@ -16,21 +16,14 @@
    d) Amazon
    Answer: c
 
-3. What is the minimum version of Node.js required to work with modern React?
-   a) Node.js 10.x
-   b) Node.js 12.x
-   c) Node.js 14.x
-   d) Node.js 16.x
-   Answer: c
-
-4. Which of these is NOT a key feature of React?
+3. Which of these is NOT a key feature of React?
    a) Virtual DOM
    b) Component-based architecture
    c) Two-way data binding by default
    d) Declarative UI
    Answer: c
 
-5. What is the purpose of the return statement in a React functional component?
+4. What is the purpose of the return statement in a React functional component?
    a) To end the function execution
    b) To specify the JSX that should be rendered
    c) To return data to an API
