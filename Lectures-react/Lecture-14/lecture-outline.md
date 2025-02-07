@@ -17,12 +17,12 @@
 - Objective: Help students quickly set up their first React project using tools that avoid complex installations.
 
 - Key Steps:
-  1. Introduction to Tools: Briefly introduce Stackblitz or Newton Box as online environments for React.
-  2. Create a React App:
-    - Demonstrate how to set up a React project using newton box.
-    - Walk through the basic file structure (src, public, node_modules). Let's not talk about node_modules and other folders. We will only tell them that the code changes would be done in src folder.
-  3. First Run:
-    - Show the students the default “React App” screen after running the project.
+    1. Introduction to Tools: Briefly introduce Stackblitz or Newton Box as online environments for React.
+    2. Create a React App:
+        - Demonstrate how to set up a React project using newton box.
+        - Walk through the basic file structure (src, public, node_modules). Let's not talk about node_modules and other folders. We will only tell them that the code changes would be done in src folder.
+    3. First Run:
+        - Show the students the default “React App” screen after running the project.
 - Practical Activity:
     - Students replicate the steps to set up their environment.
 
@@ -114,20 +114,9 @@
 
 ## 7. Quiz (10 minutes)
 
-Example quiz questions:
-
-- What is the purpose of a functional component in React?
-- How do you create a new functional component in React?
-- What is JSX and how is it different from HTML?
-- How do you render a component in React?
-- What is the purpose of the `return` statement in a functional component?
-- What is the purpose of the `className` attribute in JSX?
-- How do you embed JavaScript expressions in JSX?
-- What is the purpose of the `div` element in React?
-- How do you nest components in React?
-- What is the purpose of the `props` object in React?
+Example quiz questions in [checkpoints](./checkpoints)
 
 ## Resources
 
-- Official React documentation: react.dev
-- Online playgrounds: Stackblitz, Newton Box
+- Official React documentation: [react.dev](https://react.dev/)
+- Online playgrounds: [Stackblitz](https://stackblitz.com/), [Newton Box](https://my.newtonschool.co/playgrounds/react-js-compiler)

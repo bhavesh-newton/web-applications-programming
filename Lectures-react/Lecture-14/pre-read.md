@@ -42,21 +42,21 @@ Components are like LEGO blocks - small, reusable pieces that you can combine to
 
 1. **Functional Components** (Modern approach):
 
-```jsx
-function Welcome() {
-  return <h1>Hello, World!</h1>;
-}
-```
+    ```jsx
+    function Welcome() {
+      return <h1>Hello, World!</h1>;
+    }
+    ```
 
 2. **Class Components** (Legacy approach):
 
-```jsx
-class Welcome extends React.Component {
-  render() {
-    return <h1>Hello, World!</h1>;
-  }
-}
-```
+    ```jsx
+    class Welcome extends React.Component {
+      render() {
+        return <h1>Hello, World!</h1>;
+      }
+    }
+    ```
 
 In our lectures, we will only be using functional components.
 
@@ -83,18 +83,18 @@ JSX is a syntax extension for JavaScript that looks similar to HTML but comes wi
 
 2. **JavaScript in Markup**:
 
-```jsx
-const name = 'John';
-const element = <h1>Hello, {name}</h1>;
-```
+    ```jsx
+    const name = 'John';
+    const element = <h1>Hello, {name}</h1>;
+    ```
 
 3. **Style Differences**:
 
-```jsx
-// JSX style
-const style = { backgroundColor: 'blue' };
-const element = <div style={style}>Hello</div>;
-```
+    ```jsx
+    // JSX style
+    const style = { backgroundColor: 'blue' };
+    const element = <div style={style}>Hello</div>;
+    ```
 
 ---
 
