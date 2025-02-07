@@ -42,21 +42,21 @@ Components are like LEGO blocks - small, reusable pieces that you can combine to
 
 1. **Functional Components** (Modern approach):
 
-```jsx
-function Welcome() {
-  return <h1>Hello, World!</h1>;
-}
-```
+    ```jsx
+    function Welcome() {
+      return <h1>Hello, World!</h1>;
+    }
+    ```
 
 2. **Class Components** (Legacy approach):
 
-```jsx
-class Welcome extends React.Component {
-  render() {
-    return <h1>Hello, World!</h1>;
-  }
-}
-```
+    ```jsx
+    class Welcome extends React.Component {
+      render() {
+        return <h1>Hello, World!</h1>;
+      }
+    }
+    ```
 
 In our lectures, we will only be using functional components.
 
