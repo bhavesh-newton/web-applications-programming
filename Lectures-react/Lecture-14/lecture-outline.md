@@ -2,13 +2,14 @@
 
 ## 1. Introduction to React (10 minutes)
 
-- Objective: Provide a high-level understanding of React’s purpose and origins.
+- Objective: Provide a high-level understanding of React's purpose and origins.
 
 - Key Points:
   1. React is a JavaScript library for building user interfaces, particularly for single-page applications.
   2. Developed and maintained by Facebook, first released in 2013.
   3. Importance: Fast, scalable, and simple way to build interactive UIs.
   4. Real-world examples of React-powered applications (e.g., Instagram, Facebook, Netflix).
+
 - Engagement:
     - Ask students about websites/apps they interact with daily and relate those examples to React.
 
@@ -22,7 +23,8 @@
         - Demonstrate how to set up a React project using newton box.
         - Walk through the basic file structure (src, public, node_modules). Let's not talk about node_modules and other folders. We will only tell them that the code changes would be done in src folder.
     3. First Run:
-        - Show the students the default “React App” screen after running the project.
+        - Show the students the default "React App" screen after running the project.
+
 - Practical Activity:
     - Students replicate the steps to set up their environment.
 
@@ -52,6 +54,7 @@
 ## 4. JSX Syntax: Writing HTML in JavaScript (15-20 minutes)
 
 - Objective: Introduce JSX as the syntax for combining HTML and JavaScript in React.
+
 - Key Points:
     - What is JSX?
         - JavaScript XML, allows embedding HTML directly in JavaScript.
@@ -76,9 +79,8 @@
 ## 5. Rendering Components in a React Application (10-15 minutes)
 
 - Objective: Show how to display React components in the browser, including nesting components.
+
 - Key Steps:
-    <!-- - Rendering Basics:
-        - Using ReactDOM.render() to render components to the DOM. -->
     - Nesting Components:
         - Example:
 
@@ -94,7 +96,7 @@
         ```
 
     - Dynamic Updates:
-        - How React automatically updates the UI when the state or props change (preview for later topics).
+        - How React automatically updates the UI when the state changes (preview for later topics).
 
 - Live Demo:
     - Create an App component that renders multiple nested components.
@@ -118,5 +120,7 @@ Example quiz questions in [checkpoints](./checkpoints)
 
 ## Resources
 
-- Official React documentation: [react.dev](https://react.dev/)
+- [React Documentation](https://react.dev/)
+- [JSX Documentation](https://react.dev/learn/writing-markup-with-jsx)
+- [Components Documentation](https://react.dev/learn/your-first-component)
 - Online playgrounds: [Stackblitz](https://stackblitz.com/), [Newton Box](https://my.newtonschool.co/playgrounds/react-js-compiler)
