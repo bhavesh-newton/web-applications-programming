@@ -17,12 +17,12 @@
 - Objective: Help students quickly set up their first React project using tools that avoid complex installations.
 
 - Key Steps:
-  1. Introduction to Tools: Briefly introduce Stackblitz or Newton Box as online environments for React.
-  2. Create a React App:
-    - Demonstrate how to set up a React project using newton box.
-    - Walk through the basic file structure (src, public, node_modules). Let's not talk about node_modules and other folders. We will only tell them that the code changes would be done in src folder.
-  3. First Run:
-    - Show the students the default “React App” screen after running the project.
+    1. Introduction to Tools: Briefly introduce Stackblitz or Newton Box as online environments for React.
+    2. Create a React App:
+        - Demonstrate how to set up a React project using newton box.
+        - Walk through the basic file structure (src, public, node_modules). Let's not talk about node_modules and other folders. We will only tell them that the code changes would be done in src folder.
+    3. First Run:
+        - Show the students the default “React App” screen after running the project.
 - Practical Activity:
     - Students replicate the steps to set up their environment.
 
@@ -116,18 +116,70 @@
 
 Example quiz questions:
 
-- What is the purpose of a functional component in React?
-- How do you create a new functional component in React?
-- What is JSX and how is it different from HTML?
-- How do you render a component in React?
-- What is the purpose of the `return` statement in a functional component?
-- What is the purpose of the `className` attribute in JSX?
-- How do you embed JavaScript expressions in JSX?
-- What is the purpose of the `div` element in React?
-- How do you nest components in React?
-- What is the purpose of the `props` object in React?
+1. What is React primarily used for?
+   a) Server-side rendering only
+   b) Building user interfaces and single-page applications
+   c) Database management
+   d) Backend API development
+   Answer: b
+
+2. Which tool is recommended for creating a new React project?
+   a) React Builder
+   b) Create React App
+   c) React Initializer
+   d) React Starter Kit
+   Answer: b
+
+3. What is the correct syntax for a basic functional component in React?
+   a) `function MyComponent { return <div>Hello</div>; }`
+   b) `class MyComponent { render() { return <div>Hello</div>; } }`
+   c) `function MyComponent() { return <div>Hello</div>; }`
+   d) `const MyComponent = <div>Hello</div>;`
+   Answer: c
+
+4. How do you include JavaScript expressions in JSX?
+   a) Using `{{ expression }}`
+   b) Using `{% expression %}`
+   c) Using `{* expression *}`
+   d) Using `{ expression }`
+   Answer: d
+
+5. What is the purpose of the return statement in a React functional component?
+   a) To end the function execution
+   b) To specify the JSX that should be rendered
+   c) To return data to an API
+   d) To create a new component instance
+   Answer: b
+
+6. What is the correct way to nest React components?
+   a) `<Parent><Child/></Parent>`
+   b) `Parent.append(Child)`
+   c) `Parent.nest(Child)`
+   d) `Parent(Child)`
+   Answer: a
+
+7. How do JSX attributes differ from HTML attributes?
+   a) They use camelCase instead of lowercase
+   b) They only accept string values
+   c) They require quotes for all values
+   d) They are exactly the same
+   Answer: a
+
+8. What is the correct way to display dynamic content in JSX?
+   a) `{{dynamicValue}}`
+   b) `{dynamicValue}`
+   c) `<%=dynamicValue%>`
+   d) `${dynamicValue}`
+   Answer: b
+
+9. What happens when components are nested in React?
+   a) The child components are rendered inside their parent component
+   b) The components run in parallel
+   c) Only the last component is rendered
+   d) The components must share state
+   Answer: a
 
 ## Resources
 
-- Official React documentation: react.dev
-- Online playgrounds: Stackblitz, Newton Box
+- Official React documentation: [react.dev](https://react.dev/)
+- Online playgrounds: [Stackblitz](https://stackblitz.com/), [Newton Box](https://my.newtonschool.co/playgrounds/react-js-compiler)
